@@ -1,4 +1,6 @@
-Spatial partitioning using a k-d tree
+# Spatial partitioning using a k-d tree
+
+![range detector in 2D space](https://github.com/RaduHaulica/KDTree-visualization/blob/974a268220da8d45c825354cefd1181541b1ca21/KDTree/media/kdtreerange%20finder.gif)
 
 As the number of entities in the world increases, it becomes increasingly time consuming to iterate over them to test whether various conditions are met (collisions etc.)
 
@@ -9,3 +11,5 @@ One of the ways to go about it is to create a virtual partitioning system that t
 A k-dimensional tree (in this case 2D) is one of the structures that can be used for creating such a partition. As can be seen in the example, it greatly reduces the time it takes to iterate through the points, at the cost of a longer initilization duration when creating the structure.
 
 I tried it out by generating 10.000 points in a random donut pattern and then implementing algorithms to locate points that are in a desired range around a certain point, and the nearest point in the system to the current cursor position.
+
+![find closest point in 2D space](https://github.com/RaduHaulica/KDTree-visualization/blob/974a268220da8d45c825354cefd1181541b1ca21/KDTree/media/kdtree%20closest%20finder.gif)
