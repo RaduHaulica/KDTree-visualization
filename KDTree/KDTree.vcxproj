@@ -162,6 +162,17 @@
   <ItemGroup>
     <Font Include="Roboto-Bold.ttf" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="media\kdtree closest finder.gif" />
+    <Image Include="media\kdtree closest point better.gif" />
+    <Image Include="media\kdtree spatial partinioning helpers.gif" />
+    <Image Include="media\kdtree spatial partinioning tree high density.gif" />
+    <Image Include="media\kdtree spatial partinioning tree.gif" />
+    <Image Include="media\kdtreerange finder.gif" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
